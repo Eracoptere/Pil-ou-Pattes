@@ -47,3 +47,151 @@
     border-radius: 5px;
     display: none;
 }
+
+/* Section présentation de l'asso */
+
+.h2-title {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1.5vh;
+    text-align: center;
+    color: #5B446C;
+    margin-bottom: 4.5vh;
+}
+
+.first-section .presentation img {
+    height: auto;
+    width: 100vw;
+}
+.main-title {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4rem;
+    color: #D289AE;
+    padding-top: 1 vh;
+}
+
+.first-section {
+    width: 100vw;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.para-1 {
+    margin: 10vw;
+    color: #5B446C;
+    text-align: center;
+}
+
+.text-presentation {
+    background: #E1F4E4;
+    border: 1px solid #C3E7C4;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-webkit-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-moz-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+}
+
+/* Section présentation des différents animaux */
+
+.h3-accueil {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 7vh;
+    text-align: center;
+    color: #5B446C;
+    margin-bottom: 4.5vh;
+}
+
+.all-animals {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.animals {
+    height: auto;
+    width: 30vw;
+    border-radius: 50px;
+}
+
+.rabbit-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D289AE;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 2px white solid;
+}
+.dog-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background: #E1F4E4;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-bottom: 2px white solid;
+}
+
+.cat-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D289AE;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-bottom: 2px white solid;
+}
+
+.guinea-pig-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background: #E1F4E4;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-radius: 0 0 30px 30px;
+}
+
+.button-pink {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #C3E7C4;
+    color: #5B446C;
+    border: none;
+}
+
+.button-green {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #D289AE;
+    color: #E1F4E4;
+    border: none;
+}
+
+/* Section motivation de l'association */
+
+.motivations {
+    margin: 5vh 5vw 5vh 5vw;
+    padding: 10px;
+    background-color: #E1F4E4;
+    border-radius: 50px;
+    box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-webkit-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-moz-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+}
+
+.para-2 {
+    margin-top: 3vh;
+    text-align: center;
+}
