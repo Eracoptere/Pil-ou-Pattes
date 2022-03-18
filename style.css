@@ -315,3 +315,36 @@
     color: #5B446C;
     margin-bottom: 4vh;
 }
+
+/* Media queries barre de naviguation */
+
+@media (max-width: 1024px){
+    .menu-btn{
+        display: block;
+        z-index: 2;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #E1F4E4;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .menu-btn {
+        margin-left: 20px;
+    }
+}
