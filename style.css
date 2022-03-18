@@ -470,3 +470,45 @@
         margin-top: 15vh;
     }
 }
+
+
+/* Media queries page évènements/contact */
+
+@media (min-width: 768px){
+    .contact-input {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1024px){
+    .two-cards {
+        display: flex;
+    }
+    .evenement-cat {
+        margin-right: 5vw;
+    }
+    .contact-input {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1280px){
+    .all-card {
+        display: flex;
+        margin: 0;
+    }
+    .evenement {
+        width: 30vw;
+        margin: 0 4% 0 6%;
+    }
+    .evenement-2 {
+        width: 30vw;
+        margin: 0 0 0 6%;
+    }
+    .two-cards {
+        display: flex;
+    }
+    .contact-input {
+        width: 75%;
+    }
+}
