@@ -214,3 +214,56 @@
 .a-icons {
     color: black;
 }
+
+/* Page évènements */
+
+.para-3 {
+    text-align: justify;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    margin-bottom: 8vh;
+}
+
+.map {
+    padding-top: 2vh;
+    display: block;
+    border: none;
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+}
+
+.salon-content {
+    text-align: center;
+    margin: 1vh 2vh 2vh 2vh;
+}
+
+.evenement {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5vw;
+    border-radius: 30px;
+}
+
+.evenement-2 {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    border-radius: 30px;
+}
+
+.titre-4 {
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Chivo', sans-serif;
+    font-size: large;
+}
+
+.all-card {
+    display: block;
+}
+
+.two-cards {
+    display: block;
+}
