@@ -195,3 +195,22 @@
     margin-top: 3vh;
     text-align: center;
 }
+
+/* Footer */
+
+.footer {
+    margin-top: 6vh;
+    background-color: #C3E7C4;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    border-top: 1px solid #5B446C;
+}
+
+.icons {
+    margin: 1vh 1vw 0 1vw;
+}
+
+.a-icons {
+    color: black;
+}
